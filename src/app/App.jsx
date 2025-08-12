@@ -8,6 +8,7 @@ import Feedback360 from '../pages/Feedback360.jsx';
 import Appraisals from '../pages/Appraisals.jsx';
 import Development from '../pages/Development.jsx';
 import Privacy from '../pages/Privacy.jsx';
+import Compliance from '../pages/Compliance.jsx';
 
 const App = () => (
   <BrowserRouter>
@@ -21,6 +22,7 @@ const App = () => (
         <Route path="feedback" element={<Feedback />} />
         <Route path="feedback360" element={<Feedback360 />} />
         <Route path="appraisals" element={<Appraisals />} />
+        <Route path="compliance" element={<Compliance />} />
       </Route>
     </Routes>
   </BrowserRouter>

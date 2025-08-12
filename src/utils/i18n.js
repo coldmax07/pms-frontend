@@ -30,7 +30,18 @@ const translations = {
     save: 'Save',
     planSaved: 'Plan saved',
     plans: 'Plans',
-    avgCompletion: 'Avg Completion'
+    avgCompletion: 'Avg Completion',
+    compliance: 'Compliance',
+    pfmaAlignment: 'PFMA Alignment',
+    sdlTrainingHours: 'SDL Training Hours',
+    popiaAuditStatus: 'POPIA Audit Status',
+    auditLog: 'Audit Log',
+    user: 'User',
+    action: 'Action',
+    timestamp: 'Timestamp',
+    generateReport: 'Generate Compliance Report',
+    reportGenerated: 'Compliance report generated',
+    compliant: 'Compliant'
   },
   af: {
     login: 'Teken In',
@@ -63,7 +74,18 @@ const translations = {
     save: 'Stoor',
     planSaved: 'Plan gestoor',
     plans: 'Planne',
-    avgCompletion: 'Gem Voltooiing'
+    avgCompletion: 'Gem Voltooiing',
+    compliance: 'Nakoming',
+    pfmaAlignment: 'PFMA-belyning',
+    sdlTrainingHours: 'SDL-opleidingsure',
+    popiaAuditStatus: 'POPIA-ouditstatus',
+    auditLog: 'Ouditlog',
+    user: 'Gebruiker',
+    action: 'Aksie',
+    timestamp: 'Tydstempel',
+    generateReport: 'Genereer Nakomingsverslag',
+    reportGenerated: 'Nakomingsverslag gegenereer',
+    compliant: 'In ooreenstemming'
   },
   zu: {
     login: 'Ngena',
@@ -96,7 +118,18 @@ const translations = {
     save: 'Gcina',
     planSaved: 'Uhlelo lugcinwe',
     plans: 'Izinhlelo',
-    avgCompletion: 'Isilinganiso sokuqedwa'
+    avgCompletion: 'Isilinganiso sokuqedwa',
+    compliance: 'Ukuhambisana',
+    pfmaAlignment: 'Ukuvumelana kwe-PFMA',
+    sdlTrainingHours: 'Amahora Oqeqesho e-SDL',
+    popiaAuditStatus: 'Isimo soHlolo se-POPIA',
+    auditLog: 'Ilog ye-Audit',
+    user: 'Umsebenzisi',
+    action: 'Isenzo',
+    timestamp: 'Isikhathi',
+    generateReport: 'Dala umbiko wokuhambisana',
+    reportGenerated: 'Umbiko wokuhambisana ukhiqiziwe',
+    compliant: 'Iyahambisana'
   },
   xh: {
     login: 'Ngena',
@@ -129,7 +162,18 @@ const translations = {
     save: 'Gcina',
     planSaved: 'Isicwangciso sigciniwe',
     plans: 'Izicwangciso',
-    avgCompletion: 'Umyinge wogqibeko'
+    avgCompletion: 'Umyinge wogqibeko',
+    compliance: 'Ukuthotyelwa',
+    pfmaAlignment: 'Ukunyenyiswa kwe-PFMA',
+    sdlTrainingHours: 'Iiyure zoQeqesho ze-SDL',
+    popiaAuditStatus: 'Imeko yoHlolo lwe-POPIA',
+    auditLog: 'Ilog yoHlolo',
+    user: 'Umsebenzisi',
+    action: 'Intshukumo',
+    timestamp: 'Ixesha',
+    generateReport: 'Yenza ingxelo yokuthotyelwa',
+    reportGenerated: 'Ingxelo yokuthotyelwa yenziwe',
+    compliant: 'Iyathobela'
   }
 };
 
