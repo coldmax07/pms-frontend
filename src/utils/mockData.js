@@ -23,3 +23,22 @@ export const mockUsers = [
   { id: 4, name: 'David', role: 'employee' },
   { id: 5, name: 'Eve', role: 'employee' }
 ];
+
+export const mockIdps = [
+  {
+    id: 1,
+    goal: 'Improve leadership skills',
+    training: 'Leadership workshop',
+    timeline: '2025-09-30',
+    completion: 30,
+    status: 'Pending'
+  },
+  {
+    id: 2,
+    goal: 'Learn advanced React',
+    training: 'React course',
+    timeline: '2025-12-31',
+    completion: 70,
+    status: 'Pending'
+  }
+];
