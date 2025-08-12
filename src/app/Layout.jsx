@@ -34,6 +34,9 @@ const Layout = () => {
           {user.role === 'hr' && (
             <NavLink to="/compliance" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('compliance')}</NavLink>
           )}
+          {(user.role === 'hr' || user.role === 'manager') && (
+            <NavLink to="/reports" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('reports')}</NavLink>
+          )}
         </nav>
       </div>
       <div className="content flex-grow-1">
