@@ -84,6 +84,18 @@ const HRDashboard = () => {
           </div>
         </div>
       </div>
+      <div className="col-md-4">
+        <div className="card mb-3">
+          <div className="card-body">
+            <h5 className="card-title">{t('recentReports')}</h5>
+            <ul className="mb-0">
+              <li>Q1 KPI Overview</li>
+              <li>Annual Compliance Summary</li>
+              <li>Team Performance Q2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
