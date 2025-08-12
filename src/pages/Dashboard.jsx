@@ -60,26 +60,33 @@ const ManagerDashboard = () => (
   </div>
 );
 
-const HRDashboard = () => (
-  <div className="row">
-    <div className="col-md-4">
-      <div className="card text-center mb-3">
-        <div className="card-body">
-          <h5 className="card-title">Avg Score</h5>
-          <p className="card-text">4.2</p>
+const HRDashboard = () => {
+  const { t } = useContext(LanguageContext);
+  return (
+    <div className="row">
+      <div className="col-md-4">
+        <div className="card text-center mb-3">
+          <div className="card-body">
+            <h5 className="card-title">Avg Score</h5>
+            <p className="card-text">4.2</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card text-center mb-3">
+          <div className="card-body">
+            <h5 className="card-title">{t('compliance')}</h5>
+            <p className="card-text">
+              {t('pfmaAlignment')}: 90%<br />
+              {t('sdlTrainingHours')}: 120/150<br />
+              {t('popiaAuditStatus')}: {t('compliant')}
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div className="col-md-4">
-      <div className="card text-center mb-3">
-        <div className="card-body">
-          <h5 className="card-title">Compliance</h5>
-          <p className="card-text">95%</p>
-        </div>
-      </div>
-    </div>
-  </div>
-);
+  );
+};
 
 const Dashboard = () => {
   const { user } = useContext(UserContext);
