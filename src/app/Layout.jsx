@@ -27,6 +27,7 @@ const Layout = () => {
         <nav className="nav flex-column">
           <NavLink to="/" end className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('dashboard')}</NavLink>
           <NavLink to="/goals" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('goals')}</NavLink>
+          <NavLink to="/development" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('development')}</NavLink>
           <NavLink to="/feedback" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('feedback')}</NavLink>
           <NavLink to="/feedback360" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('feedback360')}</NavLink>
           <NavLink to="/appraisals" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>{t('appraisals')}</NavLink>
